@@ -1,9 +1,9 @@
 # rpi-temposcope
 
-JD-VCC -> 5v pin 2
-nearest GND -> GND pin 6
-IN1 -> GPIO17 pin 11
-furthest VCC -> 3.3v pin 1
+- JD-VCC -> 5v pin 2
+- nearest GND -> GND pin 6
+- IN1 -> GPIO17 pin 11
+- furthest VCC -> 3.3v pin 1
 
 ```
 $ echo 17 > /sys/class/gpio/export

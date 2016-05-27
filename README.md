@@ -10,3 +10,5 @@ $ echo 17 > /sys/class/gpio/export
 $ echo out | sudo tee /sys/class/gpio/gpio17/direction
 $ echo 1 | sudo tee /sys/class/gpio/gpio17/value
 ```
+
+https://www.youtube.com/watch?v=b6ZagKRnRdM
